@@ -17,7 +17,29 @@ Inspirational sources:
 * [Paper](https://www.ncbi.nlm.nih.gov/pubmed/23294775).
 * [Eli Lilly's trial](https://clinicaltrials.gov/ct2/show/NCT00734474?id=NCT00734474&rank=1) - main paper and [associated design paper](https://www.ncbi.nlm.nih.gov/pubmed/23294776).
 
+---
+Design
 
+* Stage 1: Adaptive scheme
+* Stage 2: Fixed scheme
+
+---
+Why is the trial 'adaptive'?
+
+* The probability of a new patient being assigned to a given dose of dula will change, or adapt, based on accumulating data in stage 1.
+* Dula dose selection for stage 2 will be determined in stage 1 based on accumulating data.
+* Sample sizes in stage 1 and stage 2 will be determined adaptively and inform the decision as to how much data will be sufficient to draw conclusions.
+
+Inferentially seamless: final analysis and conclusions will combine data from patients enrolled in both stage 1 and stage 2.
+
+- The adaptive algorithm employs Bayesian methods
+- The final analysis uses frequentist statistical methods.
+
+---
+background-image: url(https://images-na.ssl-images-amazon.com/images/I/41uozf4ESCL._SX328_BO1,204,203,200_.jpg)
+background-position: 50% 50%
+
+R Package for Adaptive Clinical Trials [RPACT](https://www.rpact.com/r-package).
 
 ---
 
